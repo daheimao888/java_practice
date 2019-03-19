@@ -6,9 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class IocTest {
     public static void main(String[] args){
-        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application-xxx.xml");
-        System.out.println("context 启动成功");
-        MessageService bean = context.getBean(MessageService.class);
-        System.out.println(bean.getMessage());
+        System.out.println(5/3);
     }  
 }
