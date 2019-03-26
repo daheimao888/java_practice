@@ -22,4 +22,23 @@ public class 检测环 {
 
         return false;
     }
+
+    /**
+     * 求中间节点
+     *
+     * @param head
+     * @return
+     */
+    public LinkNode findMid(LinkNode head){
+        if(head == null) return head;
+
+        LinkNode fast = head;
+        LinkNode slow = head;
+        while (fast.next != null && fast.next.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        return slow;
+    }
 }
