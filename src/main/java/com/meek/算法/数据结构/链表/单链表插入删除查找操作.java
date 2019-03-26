@@ -1,4 +1,6 @@
-package com.meek.算法.链表;
+package com.meek.算法.数据结构.链表;
+
+import com.meek.算法.数据结构.链表.LinkNode;
 
 public class 单链表插入删除查找操作 {
 

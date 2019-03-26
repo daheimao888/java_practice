@@ -1,4 +1,4 @@
-package com.meek.算法.链表;
+package com.meek.算法.数据结构.链表;
 
 public class LinkNode {
     int value;

@@ -1,5 +1,4 @@
-package com.meek.算法.树;
-
+package com.meek.算法.数据结构.树;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

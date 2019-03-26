@@ -1,4 +1,4 @@
-package com.meek.算法.栈;
+package com.meek.算法.数据结构.栈;
 
 /**
  * 用数组实现的栈叫顺序栈
