@@ -3,8 +3,14 @@ package com.meek.算法.链表;
 public class LinkNode {
     int value;
     LinkNode next;
-    LinkNode(int value){
+
+    LinkNode(int value) {
         this.value = value;
+    }
+
+    LinkNode(int value,LinkNode next) {
+        this.value = value;
+        this.next =next;
     }
 
 }
