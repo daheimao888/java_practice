@@ -22,7 +22,7 @@ public class NLogn {
     private static int count = 1;
 
     /**
-     * 归并排序,每次将数组分成两个分别排序,在进行合并;
+     * 归并排序,每次将数组分成两个分别排序,在进行合并成一个有序数组;
      */
     public static void mergeSort() {
         mergeSort_c(items, 0, items.length - 1);
