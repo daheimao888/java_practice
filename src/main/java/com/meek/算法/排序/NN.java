@@ -16,7 +16,7 @@ public class NN {
         System.out.println(Arrays.toString(items));
     }
 
-    private static int[] items = new int[]{1, 4, 5, 3, 6, 2};
+    private static int[] items = new int[]{1, 4, 5, 3, 6, 2,42,3242,63,6,4,75,67,588768,234,2,432,43,24577,65,75,76};
 
     /**
      * 冒泡排序:相邻位置数据交换,冒泡,每次把大的向后移,直到有序
