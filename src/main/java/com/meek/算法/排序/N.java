@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 计数排序
  * 基数排序
  */
-public class N_ {
+public class N {
 
     public static void main(String[] args) {
         System.out.println("初始数组: " + Arrays.toString(items));
