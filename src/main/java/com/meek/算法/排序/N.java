@@ -39,7 +39,7 @@ public class N {
             bucket[i] = bucket[i - 1] + bucket[i];
         }
 
-        //排序,从后往前取值,越原来的值到桶中找位置,再放入到新数组中,同时保证相同数据的有序性不破坏,所以倒序来
+        //排序,从后往前取值,把原来的值到桶中找位置,再放入到新数组中,同时保证相同数据的有序性不破坏,所以倒序来
         int[] temp = new int[items.length];
         for (int i = items.length - 1; i >= 0; i--) {
             int index = bucket[items[i]] - 1;
